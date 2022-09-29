@@ -1,0 +1,123 @@
+/* PC */
+@media (min-width: 64em) { 
+    .header__navbar-responsive {
+        display: none;
+    }
+}
+
+/*Tablet and mobile*/
+@media (max-width: 63.9375em) { 
+    .header {
+        justify-content: space-around;
+    }
+    .header__logo {
+        display: none;
+    }
+    .header__search {
+        width: 80%;
+    }
+    .header__navbar {
+        display: none;
+    }
+    .header__language {
+        display: none;
+    }
+    .poster {
+        margin-bottom: 24px;
+    }
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .container__welcome {
+        height: fit-content;
+    }
+    .container__places-main {
+        justify-content: center;
+    }
+    .containter__places-main-item {
+        margin: 12px 12px;
+    }
+    .container__voucher-main {
+        width: 100%;
+    }
+    .container__voucher-main-item {
+        margin: 0 auto;
+        margin-bottom: 24px;
+    }
+    .container__suggest {
+        width: 100%;
+    }
+    .container__suggest-main-item {
+        margin: 0 auto;
+    }
+    .container__discover-main {
+        width: 100%;
+    }
+    .container__discover-main-item {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+    .container__discover-main-item img {
+        width: 100%;
+    }
+    .container__guild {
+        width: 100%;
+    }
+    .container__guild-main {
+        width: 100%;
+    }
+    .container__guild-main img {
+        margin: 12px auto;
+    }
+    .footer {
+        width: 90%;
+    }
+    .footer__download-info {
+        width: 100%;
+    }
+    .footer__download-img {
+        display: none;
+    }
+    .footer__download-info-link {
+        margin-top: 12px;
+    }
+    .footer__download-info-link-qrcode {
+        width: fit-content;
+    }
+    .footer__download-info-link-mobile {
+        margin-left: 0;
+    }
+    .footer__download-info-link-mobile img {
+        width: fit-content;
+    }
+    .footer__info-contact {
+        width: 100%;
+    }
+    .footer__info-homestay {
+        display: none;
+    }
+    .footer__info-aboutus {
+        display: none;
+    }
+    .footer__info-app {
+        display: none;
+    }
+    .footer__info-favor {
+        display: none;
+    }
+    .footer__certificate {
+        display: block;
+    }
+    .footer__certificate-1 {
+        width: 100%;
+    }
+    .footer__certificate-2 {
+        margin-top: 24px;
+        width: 100%;
+    }
+    .footer__certificate-3 {
+        margin-top: 24px;
+        width: 100%;
+    }
+}
